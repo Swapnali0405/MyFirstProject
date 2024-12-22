@@ -1,0 +1,12 @@
+1)docker build .
+//change image name
+2)docker build . -t swapimag
+//get output
+3)docker run swapimag
+4)docker ps -a
+//to remove image need to remove container first
+5)docker rm 4c9
+//4c9 is containerID
+6)docker rmi swapimag
+//if we pull image it don't run
+7)docker pull imagename
